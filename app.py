@@ -64,4 +64,4 @@ else:
         for i, item in enumerate(job["media"][-12:]):  # last 12 items
             with cols[i % 4]:
                 if item["type"].startswith("image"):
-                    st.image(item
+                    st.image(item)
